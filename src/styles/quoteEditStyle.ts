@@ -1,0 +1,71 @@
+import {StyleSheet} from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    width: '100%',
+    height: 'auto',
+    // backgroundColor: '#c3d6f2',
+    marginBottom: 25,
+  },
+  card: {
+    marginTop: 15,
+    marginBottom: 15,
+    borderRadius: 15,
+    backgroundColor: '#1E2225',
+    borderColor: '#E1D64C',
+    paddingBottom: 40,
+  },
+  author: {
+    fontFamily: 'monospace',
+    fontSize: 14,
+    fontWeight: '700',
+    fontStyle: 'italic',
+    textAlign: 'right',
+    color: '#C5C5C5',
+    // borderBottomWidth: 1,
+    // borderBottomColor: 'white',
+  },
+  cardFooter: {
+    flexDirection: 'row',
+    // flexWrap: 'wrap',
+    justifyContent: 'space-between',
+    flex: 1,
+  },
+  fontAwesome: {
+    fontSize: 20,
+    marginBottom: -12,
+    color: '#E1D64C',
+  },
+  quote: {
+    fontFamily: 'Roboto',
+    fontSize: 18,
+    fontWeight: '400',
+    color: '#C5C5C5',
+    textAlign: 'left',
+    // borderWidth: 1,
+    // borderColor: 'white',
+    textTransform: 'capitalize',
+  },
+  quoteRight: {
+    fontSize: 20,
+    textAlign: 'right',
+    marginTop: -20,
+    marginBottom: 20,
+    color: '#E1D64C',
+  },
+  button: {
+    color: 'black',
+    borderRadius: 10,
+    height: 38,
+    fontSize: 18,
+    fontWeight: 700,
+    marginTop: 10,
+    backgroundColor: '#E1D64C',
+  },
+  cross: {
+    fontSize: 30,
+    textAlign: 'right',
+    color: '#E1D64C',
+  },
+});
